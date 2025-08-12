@@ -1,0 +1,1 @@
+g++ -std=c++17 -Os -s -O2 -O3 -static -static-libgcc -static-libstdc++ -flto -fno-exceptions -fno-rtti -fexceptions -lcrypt32 gettempV6.cpp -lstdc++fs -lcrypt32 -o GettempV6.EXE
